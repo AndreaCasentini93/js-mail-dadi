@@ -1,12 +1,12 @@
 // 1) Generare un numero random da 1 a 6 per il giocatore
 var userNumber = Math.floor ((Math.random() * 6) + 1);
 
-console.log(userNumber);
+console.log("Player = ", userNumber);
 
 // 2) Generare un numero random da 1 a 6 per il computer
 var computerNumber = Math.floor ((Math.random() * 6) + 1);
 
-console.log(computerNumber);
+console.log("Computer = ", computerNumber);
 
 // 3) Stabilire il vincitore, in base a chi fa il punteggio più alto
 if (userNumber == 1) {
