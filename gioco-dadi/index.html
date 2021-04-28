@@ -16,20 +16,28 @@
     </head>
 
     <body>
+        <!-- BOX -->
         <div id="box">
             <h1>Dice Game</h1>
+            <!-- DICE BOX -->
             <div id="dice_box">
                 <div>
                     <h2>Player</h2>
                     <div id="user"></div>
+                </div>
+                <div id="play_box">
+                    <button id="play" onclick="play()">Play</button>
+                    <button id="reset" onclick="reset()">Reset</button>
                 </div>
                 <div>
                     <h2>Computer</h2>
                     <div id="computer"></div>
                 </div>
             </div>
+            <!-- /DICE BOX -->
             <div id="message"></div>
         </div>
+        <!-- /BOX -->
 
         <!-- SCRIPT JS -->
         <script src="js/script.js"></script>

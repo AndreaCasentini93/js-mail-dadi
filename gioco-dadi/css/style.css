@@ -44,6 +44,31 @@ body {
     margin: 0 auto;
 }
 
+#play_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#play_box button {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: unset;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #cc3134;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#play_box #reset {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #FDF5B8;
+}
+
 #message {
     text-align: center;
     margin-top: 20px;
